@@ -1,0 +1,72 @@
+/* Reset base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.navbar {
+    background-color: #1a237e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Container principale */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Grid delle squadre */
+.teams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* Card delle squadre */
+.team-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card h2 {
+    color: #1a237e;
+    margin-bottom: 1rem;
+}
+
+.team-info {
+    margin-top: 1rem;
+}
+
+.achievements {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+}
